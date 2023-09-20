@@ -59,12 +59,11 @@ p {
     background-position: center;
 }
 
-/* consolidated selectors */ 
-
-.float-left, .float-right {
+.float-left {
     float: left;
     margin-right: 25px;
 }
+/*  removed selector*/
 /*
 .float-right {
     float: right;
@@ -84,7 +83,8 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* correct caibri */
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
@@ -210,7 +210,7 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h2 {
+/* revised h2 to h4 */
+.footer h4 {
     font-size: 20px;
 }
