@@ -2,18 +2,17 @@
 
 ## Description 
 
-A marketing agency wants their codebase to follow web accesibility standards to optimized in search engines. 
-
-[Visit the Deployed Site](https://azurek17.github.io/html-access/)
-
+A marketing agency wanted their codebase to follow web accesibility standards to optimized in search engines. 
 Starter code was provided.
+[Visit the Deployed Site](https://azurek17.github.io/html-access/)
 
 ## Usage 
 
 To improve Web Accessibility, and improve reading the code.
 
-###HTML
-alt tags where added to all imgages links in HTML, and non-semantic HTML Elements where converted to Semantic HTML Elements.  
+HTML: 
+
+Alt tags where added to all imgages links in HTML, and non-semantic HTML Elements where converted to Semantic HTML Elements.  
 
 HTML Code Example:
 
@@ -29,9 +28,8 @@ HTML Code Example:
         <img src="./assets/images/search-engine-optimization.jpg" alt="search-engine-optimization"class="float-left" /> 
     ```
 
-###CSS:
-    -Removed all imgage link references in CSS and added to HTML
-    -Consolidated Selectors to reduce code lines
+CSS:
+Removed all imgage link references in CSS and added to HTML and consolidated CSS Selectors to reduce code lines
 
 CSS Code Example:     
 
