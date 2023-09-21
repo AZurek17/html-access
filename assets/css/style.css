@@ -51,10 +51,10 @@ p {
 }
 
 .hero {
-    height: 800px;
+    /* changed height to 100%, and removed image link*/
+    height: 100%;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -63,13 +63,12 @@ p {
     float: left;
     margin-right: 25px;
 }
-/*  removed selector*/
-/*
+
 .float-right {
     float: right;
     margin-left: 25px;
 }
-*/
+
 .content {
     width: 75%;
     display: inline-block;
