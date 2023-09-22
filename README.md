@@ -4,57 +4,54 @@
 
 A marketing agency wanted their codebase to meet web accesibility standards to optimized in search engines. 
 
-The following code was revised to meet clients expectations meet Web Accessibility Standards, and refactored all non-seimatic elements into seimatic elements. 
+The following code was revised to meet clients expectations to meet Web Accessibility Standards, and revised all non-seimatic elements into seimatic elements. 
 
-Starter code was provided to refactor the code.
+Starter code was provided.
 [Visit the Deployed Site](https://azurek17.github.io/html-access/)
 
 ## Usage 
 
 Added Alt tags to all imgage links to meet Web Accessibility Standards.
 
-    Original code: No Alt Tags:
+Original code: No Alt Tags:
 
-        ```html
+    ```html
 
          <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
 
-     '''
+    
+    
 
-    Revised code: Added Alt Tags:
+Revised code: Added Alt Tags:
 
-        ```html
+    ```html
 
         <img src="./assets/images/search-engine-optimization.jpg" alt="search-engine-optimization"class="float-left" /> 
 
-    '''
+Non-semantic HTML Elements div, where converted to Semantic HTML Elements. Semantic elements used: nav, section, article, aside, footer.
 
-Non-semantic HTML Elements <div>, where converted to Semantic HTML Elements. Semantic elements used: <nav>, <section>, <article>, <aside>, <footer>.
+Original Code: non-semantic Elements:
 
-    Original Code: non-semantic Elements:
+    ```html
 
-    ```HTML
+    <body>
+        <div class="header">
+         .....<!-- omitted body code for clarity-->
+         </div>
 
-<body>
-    <div class="header">
-        .....
-    </div>
 
-'''
+Refactored Code: semantic Elements:
 
-    Refactored Code: semantic Elements:
+    '''html
 
-    '''HTML
+    <body>
+        <!-- revised div to nav-->
+        <nav class="header">
+            .... <!-- omitted body code for clarity-->
+        </nav>
 
-<body>
-    <!-- revised div to nav-->
-    <nav class="header">
-        .... <!-- omitted body code for clarity-->
-    </nav>
-
-'''
-
-    '''HTML
+--------------------------------------------------------------------
+    
     <section class="content">
         <article id="search-engine-optimization"> 
             ..... <!-- omitted body code for clarity-->
@@ -66,7 +63,7 @@ Non-semantic HTML Elements <div>, where converted to Semantic HTML Elements. Sem
              ..... <!-- omitted body code for clarity-->
     </section>
 
-
+---------------------------------------------------------------------
     <aside class="benefits">
         <article class="benefit-lead">
             ...... <!-- omitted body code for clarity-->
@@ -78,8 +75,6 @@ Non-semantic HTML Elements <div>, where converted to Semantic HTML Elements. Sem
         
     </aside>
 
-'''
-
 
 CSS:
 
@@ -88,7 +83,6 @@ Removed imgage link references in CSS and added to HTML to meet web accessiblity
 Code Example:     
 
     '''CSS
-
             .benefit-lead, .benefit-brand, .benefit-cost {
                 margin-bottom: 32px;
                 color: #ffffff;
