@@ -49,9 +49,8 @@ a {
 p {
     font-size: 16px;
 }
-
-.hero {
-    /* changed height to 100%, and removed image link*/
+ /* renamed class, changed height to 100%,  removed image link*/
+.frontimage {
     height: 100%;
     width: 100%;
     margin-bottom: 25px;
