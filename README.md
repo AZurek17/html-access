@@ -1,5 +1,7 @@
 # html-access
 
+![html-access](./assets/images/Screenshot.png)
+
 ## Description 
 
 A marketing agency wanted their codebase to meet web accesibility standards to optimized in search engines. 
